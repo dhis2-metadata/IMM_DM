@@ -1,6 +1,6 @@
-# Neglected Tropical Diseases (NTD) Installation Guide { #ntd-agg-installation }
+# Immunization - Demand Module Installation Guide { #ntd-agg-installation }
 
-This document includes an installation guide for the Neglected Tropical Diseases package.
+This document includes an installation guide for the Immunization - Demand Module package.
 
 System default language: English
 
@@ -10,8 +10,8 @@ The metadata reference and metadata json files provide technical details on pack
 
 The metadata package consists of the following modules:
 
-- Neglected Tropical Diseases
-- Neglected Tropical Diseases (dashboard)
+- Immunization - Demand Module
+- Immunization - Demand Module (dashboard)
 
 ## Installation
 
@@ -87,7 +87,6 @@ contains the UIDs which could be replaced, as well as the API endpoints to ident
 | Object                  | UID           | API endpoint                                                             |
 |-------------------------|---------------|--------------------------------------------------------------------------|
 | Percentage              | `hmSnCXmLYwt` | `../api/indicatorTypes.json?filter=number:eq:false&filter=factor:eq:100` |
-| Numerator only (number) | `CqNPn5KzksS` | `../api/indicatorTypes.json?filter=number:eq:true&filter=factor:eq:1`    |
 
 ### Visualizations using Root Organisation Unit UID
 
