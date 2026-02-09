@@ -1816,6 +1816,7 @@
                     "id": "EVYKU2fIc6G"
                 }
             ],
+            "code": "IMM_DM_AGG",
             "dataDimension": true,
             "dataDimensionType": "DISAGGREGATION",
             "id": "CMrvZp5rmoC",
@@ -4269,9 +4270,6 @@
                     "id": "DeUzByusmBW"
                 },
                 {
-                    "id": "TWWbtMMWD51"
-                },
-                {
                     "id": "wQkI1ZbGZS0"
                 },
                 {
@@ -4311,9 +4309,6 @@
                     "id": "yV9yYQBjGsY"
                 },
                 {
-                    "id": "aBpJPej3lyE"
-                },
-                {
                     "id": "eopyJADdRt7"
                 },
                 {
@@ -4329,9 +4324,6 @@
                     "id": "ltxOdpul0XW"
                 },
                 {
-                    "id": "hJJlOnVOkV2"
-                },
-                {
                     "id": "XvocIVekWVL"
                 },
                 {
@@ -4342,9 +4334,6 @@
                 },
                 {
                     "id": "vSWSIgNutqU"
-                },
-                {
-                    "id": "kGrnHR9zV2G"
                 },
                 {
                     "id": "AbTC2T86JY4"
@@ -4491,159 +4480,6 @@
         }
     ],
     "dataElements": [
-        {
-            "aggregationLevels": [],
-            "aggregationType": "SUM",
-            "attributeValues": [],
-            "categoryCombo": {
-                "id": "Sh24BLPjCF4"
-            },
-            "code": "EPI_DPT-HEPB-HIB1_ADMINISTERED",
-            "domainType": "AGGREGATE",
-            "formName": "DPT-HepB-HIB 1 doses administered",
-            "id": "hJJlOnVOkV2",
-            "legendSets": [],
-            "name": "EPI - DPT-HepB-HIB 1 doses administered",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "BGganQwLSqY": {
-                        "access": "r-------",
-                        "id": "BGganQwLSqY"
-                    },
-                    "bYOHiQUKGzu": {
-                        "access": "r-------",
-                        "id": "bYOHiQUKGzu"
-                    },
-                    "iU1aiFrJdnm": {
-                        "access": "rw------",
-                        "id": "iU1aiFrJdnm"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "DPT-HepB-HIB 1 administered",
-            "translations": [],
-            "valueType": "INTEGER_ZERO_OR_POSITIVE",
-            "zeroIsSignificant": true
-        },
-        {
-            "aggregationLevels": [],
-            "aggregationType": "SUM",
-            "attributeValues": [],
-            "categoryCombo": {
-                "id": "Sh24BLPjCF4"
-            },
-            "code": "EPI_DPT-HEPB-HIB3_ADMINISTERED",
-            "domainType": "AGGREGATE",
-            "formName": "DPT-HepB-HIB 3 doses administered",
-            "id": "TWWbtMMWD51",
-            "legendSets": [],
-            "name": "EPI - DPT-HepB-HIB 3 doses administered",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "BGganQwLSqY": {
-                        "access": "r-------",
-                        "id": "BGganQwLSqY"
-                    },
-                    "bYOHiQUKGzu": {
-                        "access": "r-------",
-                        "id": "bYOHiQUKGzu"
-                    },
-                    "iU1aiFrJdnm": {
-                        "access": "rw------",
-                        "id": "iU1aiFrJdnm"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "DPT-HepB-HIB 3 administered",
-            "translations": [],
-            "valueType": "INTEGER_ZERO_OR_POSITIVE",
-            "zeroIsSignificant": true
-        },
-        {
-            "aggregationLevels": [],
-            "aggregationType": "SUM",
-            "attributeValues": [],
-            "categoryCombo": {
-                "id": "Sh24BLPjCF4"
-            },
-            "code": "EPI_MR1_ADMINISTERED",
-            "domainType": "AGGREGATE",
-            "formName": "MR 1 doses administered",
-            "id": "kGrnHR9zV2G",
-            "legendSets": [],
-            "name": "EPI - MR 1 doses administered",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "BGganQwLSqY": {
-                        "access": "r-------",
-                        "id": "BGganQwLSqY"
-                    },
-                    "bYOHiQUKGzu": {
-                        "access": "r-------",
-                        "id": "bYOHiQUKGzu"
-                    },
-                    "iU1aiFrJdnm": {
-                        "access": "rw------",
-                        "id": "iU1aiFrJdnm"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "MR 1 administered",
-            "translations": [],
-            "valueType": "INTEGER_ZERO_OR_POSITIVE",
-            "zeroIsSignificant": true
-        },
-        {
-            "aggregationLevels": [],
-            "aggregationType": "AVERAGE_SUM_ORG_UNIT",
-            "attributeValues": [],
-            "categoryCombo": {
-                "id": "bjDvmb4bfuf"
-            },
-            "code": "GEN_P0Y--P1Y",
-            "description": "Surviving infants (calculated)",
-            "domainType": "AGGREGATE",
-            "formName": "Population < 1 year",
-            "id": "aBpJPej3lyE",
-            "legendSets": [],
-            "name": "GEN - Population < 1 year",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "BGganQwLSqY": {
-                        "access": "r-------",
-                        "id": "BGganQwLSqY"
-                    },
-                    "bYOHiQUKGzu": {
-                        "access": "r-------",
-                        "id": "bYOHiQUKGzu"
-                    },
-                    "iU1aiFrJdnm": {
-                        "access": "rw------",
-                        "id": "iU1aiFrJdnm"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "Population < 1 y",
-            "translations": [],
-            "valueType": "INTEGER_ZERO_OR_POSITIVE",
-            "zeroIsSignificant": true
-        },
         {
             "aggregationLevels": [],
             "aggregationType": "COUNT",
@@ -6619,6 +6455,159 @@
             "translations": [],
             "valueType": "BOOLEAN",
             "zeroIsSignificant": true
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "Sh24BLPjCF4"
+            },
+            "code": "EPI_DPT-HEPB-HIB1_ADMINISTERED",
+            "domainType": "AGGREGATE",
+            "formName": "DPT-HepB-HIB 1 doses administered",
+            "id": "hJJlOnVOkV2",
+            "legendSets": [],
+            "name": "EPI - DPT-HepB-HIB 1 doses administered",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BGganQwLSqY": {
+                        "access": "r-------",
+                        "id": "BGganQwLSqY"
+                    },
+                    "bYOHiQUKGzu": {
+                        "access": "r-------",
+                        "id": "bYOHiQUKGzu"
+                    },
+                    "iU1aiFrJdnm": {
+                        "access": "rw------",
+                        "id": "iU1aiFrJdnm"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "DPT-HepB-HIB 1 administered",
+            "translations": [],
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "zeroIsSignificant": true
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "Sh24BLPjCF4"
+            },
+            "code": "EPI_DPT-HEPB-HIB3_ADMINISTERED",
+            "domainType": "AGGREGATE",
+            "formName": "DPT-HepB-HIB 3 doses administered",
+            "id": "TWWbtMMWD51",
+            "legendSets": [],
+            "name": "EPI - DPT-HepB-HIB 3 doses administered",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BGganQwLSqY": {
+                        "access": "r-------",
+                        "id": "BGganQwLSqY"
+                    },
+                    "bYOHiQUKGzu": {
+                        "access": "r-------",
+                        "id": "bYOHiQUKGzu"
+                    },
+                    "iU1aiFrJdnm": {
+                        "access": "rw------",
+                        "id": "iU1aiFrJdnm"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "DPT-HepB-HIB 3 administered",
+            "translations": [],
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "zeroIsSignificant": true
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "Sh24BLPjCF4"
+            },
+            "code": "EPI_MR1_ADMINISTERED",
+            "domainType": "AGGREGATE",
+            "formName": "MR 1 doses administered",
+            "id": "kGrnHR9zV2G",
+            "legendSets": [],
+            "name": "EPI - MR 1 doses administered",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BGganQwLSqY": {
+                        "access": "r-------",
+                        "id": "BGganQwLSqY"
+                    },
+                    "bYOHiQUKGzu": {
+                        "access": "r-------",
+                        "id": "bYOHiQUKGzu"
+                    },
+                    "iU1aiFrJdnm": {
+                        "access": "rw------",
+                        "id": "iU1aiFrJdnm"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "MR 1 administered",
+            "translations": [],
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "zeroIsSignificant": true
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "AVERAGE_SUM_ORG_UNIT",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "GEN_P0Y--P1Y",
+            "description": "Surviving infants (calculated)",
+            "domainType": "AGGREGATE",
+            "formName": "Population < 1 year",
+            "id": "aBpJPej3lyE",
+            "legendSets": [],
+            "name": "GEN - Population < 1 year",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BGganQwLSqY": {
+                        "access": "r-------",
+                        "id": "BGganQwLSqY"
+                    },
+                    "bYOHiQUKGzu": {
+                        "access": "r-------",
+                        "id": "bYOHiQUKGzu"
+                    },
+                    "iU1aiFrJdnm": {
+                        "access": "rw------",
+                        "id": "iU1aiFrJdnm"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Population < 1 y",
+            "translations": [],
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "zeroIsSignificant": true
         }
     ],
     "dataEntryForms": [],
@@ -6636,26 +6625,17 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "NIfygveLDno"
-                    },
-                    "dataSet": {
-                        "id": "a7vRTM7pSz5"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "tZeiuFeBGs1"
-                    },
-                    "dataSet": {
-                        "id": "a7vRTM7pSz5"
                     }
                 },
                 {
                     "dataElement": {
                         "id": "wQkI1ZbGZS0"
-                    },
-                    "dataSet": {
-                        "id": "a7vRTM7pSz5"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "NIfygveLDno"
                     }
                 }
             ],
@@ -6698,7 +6678,7 @@
             "timelyDays": 0.0,
             "translations": [],
             "validCompleteOnly": false,
-            "version": 8
+            "version": 10
         },
         {
             "attributeValues": [],
@@ -6714,33 +6694,21 @@
                 {
                     "dataElement": {
                         "id": "xiMwYBChwKN"
-                    },
-                    "dataSet": {
-                        "id": "MKrvmrZxKpK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "yV9yYQBjGsY"
-                    },
-                    "dataSet": {
-                        "id": "MKrvmrZxKpK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "czlrJPRpbC1"
-                    },
-                    "dataSet": {
-                        "id": "MKrvmrZxKpK"
                     }
                 },
                 {
                     "dataElement": {
                         "id": "q7s19KfUef6"
-                    },
-                    "dataSet": {
-                        "id": "MKrvmrZxKpK"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "yV9yYQBjGsY"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "czlrJPRpbC1"
                     }
                 }
             ],
@@ -6783,7 +6751,7 @@
             "timelyDays": 0.0,
             "translations": [],
             "validCompleteOnly": false,
-            "version": 4
+            "version": 6
         },
         {
             "attributeValues": [],
@@ -6798,74 +6766,47 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "A6jZpHfYd3f"
-                    },
-                    "dataSet": {
-                        "id": "j2p1Tj409QK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "aJ4sqcqVZKB"
-                    },
-                    "dataSet": {
-                        "id": "j2p1Tj409QK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "n4yD81pELIZ"
-                    },
-                    "dataSet": {
-                        "id": "j2p1Tj409QK"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "aoIQPJCJVsd"
-                    },
-                    "dataSet": {
-                        "id": "j2p1Tj409QK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "AbTC2T86JY4"
-                    },
-                    "dataSet": {
-                        "id": "j2p1Tj409QK"
                     }
                 },
                 {
                     "dataElement": {
                         "id": "e9C0cDPVXHh"
-                    },
-                    "dataSet": {
-                        "id": "j2p1Tj409QK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "Tdc4wF4zGZO"
-                    },
-                    "dataSet": {
-                        "id": "j2p1Tj409QK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "lVK247WzIKb"
-                    },
-                    "dataSet": {
-                        "id": "j2p1Tj409QK"
                     }
                 },
                 {
                     "dataElement": {
                         "id": "TXiI0TokpHY"
-                    },
-                    "dataSet": {
-                        "id": "j2p1Tj409QK"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "n4yD81pELIZ"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "lVK247WzIKb"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "Tdc4wF4zGZO"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "aJ4sqcqVZKB"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "AbTC2T86JY4"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "A6jZpHfYd3f"
                     }
                 }
             ],
@@ -6908,7 +6849,7 @@
             "timelyDays": 0.0,
             "translations": [],
             "validCompleteOnly": false,
-            "version": 12
+            "version": 14
         },
         {
             "attributeValues": [],
@@ -6923,18 +6864,12 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "Xj8Q8txiEsz"
-                    },
-                    "dataSet": {
-                        "id": "HKw3ku1rxK1"
+                        "id": "WiVolnV54ut"
                     }
                 },
                 {
                     "dataElement": {
-                        "id": "WiVolnV54ut"
-                    },
-                    "dataSet": {
-                        "id": "HKw3ku1rxK1"
+                        "id": "Xj8Q8txiEsz"
                     }
                 }
             ],
@@ -6977,7 +6912,7 @@
             "timelyDays": 0.0,
             "translations": [],
             "validCompleteOnly": false,
-            "version": 6
+            "version": 8
         },
         {
             "attributeValues": [],
@@ -6992,34 +6927,22 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "OEQ7dRqKeV4"
-                    },
-                    "dataSet": {
-                        "id": "PjvR5XlpxSL"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "vSWSIgNutqU"
-                    },
-                    "dataSet": {
-                        "id": "PjvR5XlpxSL"
+                        "id": "DhxaHKbY8cK"
                     }
                 },
                 {
                     "dataElement": {
                         "id": "eopyJADdRt7"
-                    },
-                    "dataSet": {
-                        "id": "PjvR5XlpxSL"
                     }
                 },
                 {
                     "dataElement": {
-                        "id": "DhxaHKbY8cK"
-                    },
-                    "dataSet": {
-                        "id": "PjvR5XlpxSL"
+                        "id": "OEQ7dRqKeV4"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "vSWSIgNutqU"
                     }
                 }
             ],
@@ -7062,7 +6985,7 @@
             "timelyDays": 0.0,
             "translations": [],
             "validCompleteOnly": false,
-            "version": 9
+            "version": 11
         },
         {
             "attributeValues": [],
@@ -7077,106 +7000,67 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "tbDdbIQMdtQ"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
+                        "id": "GK5Cfy0hgDK"
                     }
                 },
                 {
                     "dataElement": {
                         "id": "i0V7GEtclLx"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "In8GQeP3KOt"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "LIsQJl94gVN"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "acCrakCATwn"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "BKNLXf2KOZm"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "yMA5PAyYXxL"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "G3mH5Wx3sch"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "Hl6jr7fJszD"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "dlNyj8A1sx6"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
                     }
                 },
                 {
                     "dataElement": {
                         "id": "LB0ofWtfutu"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
                     }
                 },
                 {
                     "dataElement": {
-                        "id": "GK5Cfy0hgDK"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
+                        "id": "tbDdbIQMdtQ"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "BKNLXf2KOZm"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "Hl6jr7fJszD"
                     }
                 },
                 {
                     "dataElement": {
                         "id": "HrVum1froGL"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "yMA5PAyYXxL"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "G3mH5Wx3sch"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "LIsQJl94gVN"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "dlNyj8A1sx6"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "acCrakCATwn"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "In8GQeP3KOt"
                     }
                 }
             ],
@@ -7219,7 +7103,7 @@
             "timelyDays": 0.0,
             "translations": [],
             "validCompleteOnly": false,
-            "version": 5
+            "version": 7
         },
         {
             "attributeValues": [],
@@ -7234,82 +7118,52 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "MAtFMQJ5ZE4"
-                    },
-                    "dataSet": {
-                        "id": "curyAAiG5bK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "bZVyTyVs93z"
-                    },
-                    "dataSet": {
-                        "id": "curyAAiG5bK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "v2g3noAL78n"
-                    },
-                    "dataSet": {
-                        "id": "curyAAiG5bK"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "F2qh03udO5C"
-                    },
-                    "dataSet": {
-                        "id": "curyAAiG5bK"
                     }
                 },
                 {
                     "dataElement": {
                         "id": "fQ9MroVArqg"
-                    },
-                    "dataSet": {
-                        "id": "curyAAiG5bK"
                     }
                 },
                 {
                     "dataElement": {
                         "id": "ltxOdpul0XW"
-                    },
-                    "dataSet": {
-                        "id": "curyAAiG5bK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "zYUT64LE5qw"
-                    },
-                    "dataSet": {
-                        "id": "curyAAiG5bK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "QjbXVGxSMrL"
-                    },
-                    "dataSet": {
-                        "id": "curyAAiG5bK"
                     }
                 },
                 {
                     "dataElement": {
                         "id": "rLsItlYUSFl"
-                    },
-                    "dataSet": {
-                        "id": "curyAAiG5bK"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "MAtFMQJ5ZE4"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "zYUT64LE5qw"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "bZVyTyVs93z"
                     }
                 },
                 {
                     "dataElement": {
                         "id": "ML2f2svCmL2"
-                    },
-                    "dataSet": {
-                        "id": "curyAAiG5bK"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "QjbXVGxSMrL"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "v2g3noAL78n"
                     }
                 }
             ],
@@ -7352,7 +7206,7 @@
             "timelyDays": 0.0,
             "translations": [],
             "validCompleteOnly": false,
-            "version": 10
+            "version": 12
         },
         {
             "attributeValues": [],
@@ -7368,33 +7222,21 @@
                 {
                     "dataElement": {
                         "id": "DeUzByusmBW"
-                    },
-                    "dataSet": {
-                        "id": "KI2whosyLK7"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "XvocIVekWVL"
-                    },
-                    "dataSet": {
-                        "id": "KI2whosyLK7"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "vwayQeLkYT5"
-                    },
-                    "dataSet": {
-                        "id": "KI2whosyLK7"
                     }
                 },
                 {
                     "dataElement": {
                         "id": "tW26qxbELmq"
-                    },
-                    "dataSet": {
-                        "id": "KI2whosyLK7"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "XvocIVekWVL"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "vwayQeLkYT5"
                     }
                 }
             ],
@@ -7437,7 +7279,7 @@
             "timelyDays": 0.0,
             "translations": [],
             "validCompleteOnly": false,
-            "version": 8
+            "version": 10
         },
         {
             "attributeValues": [],
@@ -7452,26 +7294,17 @@
             "dataSetElements": [
                 {
                     "dataElement": {
+                        "id": "yggYD3AHO98"
+                    }
+                },
+                {
+                    "dataElement": {
                         "id": "Unc2MywZNhi"
-                    },
-                    "dataSet": {
-                        "id": "Ny19WqGxwM1"
                     }
                 },
                 {
                     "dataElement": {
                         "id": "hqFq18oUtcV"
-                    },
-                    "dataSet": {
-                        "id": "Ny19WqGxwM1"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "yggYD3AHO98"
-                    },
-                    "dataSet": {
-                        "id": "Ny19WqGxwM1"
                     }
                 }
             ],
@@ -7514,7 +7347,7 @@
             "timelyDays": 0.0,
             "translations": [],
             "validCompleteOnly": false,
-            "version": 10
+            "version": 12
         }
     ],
     "documents": [],
@@ -7548,9 +7381,6 @@
                     "id": "UOW8pYfMC2V"
                 },
                 {
-                    "id": "lkpoPvRswsF"
-                },
-                {
                     "id": "iTWFWGB2Z4J"
                 },
                 {
@@ -7564,9 +7394,6 @@
                 },
                 {
                     "id": "FLXDW0gBt1N"
-                },
-                {
-                    "id": "QxShpQdLuAt"
                 },
                 {
                     "id": "uWuzDChR4qV"
@@ -7602,9 +7429,6 @@
                     "id": "Uffm9cQOFxY"
                 },
                 {
-                    "id": "IKaHjpUXgg1"
-                },
-                {
                     "id": "N1Z8j0W838w"
                 },
                 {
@@ -7618,9 +7442,6 @@
                 },
                 {
                     "id": "gvGqLue3S4Z"
-                },
-                {
-                    "id": "QIoeHpkFBrI"
                 }
             ],
             "name": "IMM - Demand Module",
@@ -8477,190 +8298,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "code": "EPI_DPT!·_DROPOUT",
-            "denominator": "#{hJJlOnVOkV2.JKuWbG5bWAu}",
-            "denominatorDescription": "EPI - DPT-HepB-HIB 1 doses given < 1 year",
-            "id": "QIoeHpkFBrI",
-            "indicatorType": {
-                "id": "hmSnCXmLYwt"
-            },
-            "legendSets": [
-                {
-                    "id": "kUG1usm9ZBd"
-                }
-            ],
-            "name": "EPI - DPT 1 to 3 dropout rate (%)",
-            "numerator": "#{hJJlOnVOkV2.JKuWbG5bWAu} - #{TWWbtMMWD51.JKuWbG5bWAu}",
-            "numeratorDescription": "EPI - DPT-HepB-HIB 1 doses given < 1 year - EPI - DPT-HepB-HIB 3 doses given < 1 year",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "BGganQwLSqY": {
-                        "access": "r-------",
-                        "id": "BGganQwLSqY"
-                    },
-                    "bYOHiQUKGzu": {
-                        "access": "r-------",
-                        "id": "bYOHiQUKGzu"
-                    },
-                    "iU1aiFrJdnm": {
-                        "access": "rw------",
-                        "id": "iU1aiFrJdnm"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "DPT 1 to 3 dropout (%)",
-            "translations": [
-                {
-                    "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "Abandon Penta1-Penta3 < 1 an (%)"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "PEV - Doses de Penta1 administrées < 1 an - PEV - Doses de Penta3 administrées < 1 an"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "PEV -Taux d'abandon Penta1-Penta3 < 1 an (%)"
-                },
-                {
-                    "locale": "fr",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "PEV - Doses de Penta1 administrées < 1 an"
-                }
-            ]
-        },
-        {
-            "annualized": false,
-            "attributeValues": [],
-            "code": "EPI_DPT1_COVERAGE_U1",
-            "decimals": 0,
-            "denominator": "#{aBpJPej3lyE}",
-            "denominatorDescription": "Population < 1 year",
-            "id": "IKaHjpUXgg1",
-            "indicatorType": {
-                "id": "hmSnCXmLYwt"
-            },
-            "legendSets": [],
-            "name": "EPI - DPT-HepB-HIB 1 coverage < 1 year (%)",
-            "numerator": "#{hJJlOnVOkV2.JKuWbG5bWAu}",
-            "numeratorDescription": "DPT-HepB-HIB 1 doses given < 1year",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "BGganQwLSqY": {
-                        "access": "r-------",
-                        "id": "BGganQwLSqY"
-                    },
-                    "bYOHiQUKGzu": {
-                        "access": "r-------",
-                        "id": "bYOHiQUKGzu"
-                    },
-                    "iU1aiFrJdnm": {
-                        "access": "rw------",
-                        "id": "iU1aiFrJdnm"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "DPT-HepB-HIB 1 coverage (%)",
-            "translations": []
-        },
-        {
-            "annualized": true,
-            "attributeValues": [],
-            "code": "EPI_DPT3_COV",
-            "decimals": 1,
-            "denominator": "#{aBpJPej3lyE}",
-            "denominatorDescription": "Population < 1 year",
-            "id": "lkpoPvRswsF",
-            "indicatorType": {
-                "id": "hmSnCXmLYwt"
-            },
-            "legendSets": [
-                {
-                    "id": "s1VrkziIbq4"
-                }
-            ],
-            "name": "EPI - DPT-HepB-Hib 3 coverage < 1 year (%)",
-            "numerator": "#{TWWbtMMWD51.JKuWbG5bWAu}",
-            "numeratorDescription": "DPT-HepB-Hib 3 doses given < 1 year",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "BGganQwLSqY": {
-                        "access": "r-------",
-                        "id": "BGganQwLSqY"
-                    },
-                    "bYOHiQUKGzu": {
-                        "access": "r-------",
-                        "id": "bYOHiQUKGzu"
-                    },
-                    "iU1aiFrJdnm": {
-                        "access": "rw------",
-                        "id": "iU1aiFrJdnm"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "DPT3 coverage (%)",
-            "translations": []
-        },
-        {
-            "annualized": false,
-            "attributeValues": [],
-            "code": "EPI_MR_1_COV",
-            "decimals": 1,
-            "denominator": "#{aBpJPej3lyE}",
-            "denominatorDescription": "Population < 1 year",
-            "id": "QxShpQdLuAt",
-            "indicatorType": {
-                "id": "hmSnCXmLYwt"
-            },
-            "legendSets": [
-                {
-                    "id": "s1VrkziIbq4"
-                }
-            ],
-            "name": "EPI - MR 1 coverage < 1 year (%)",
-            "numerator": "#{kGrnHR9zV2G.JKuWbG5bWAu}",
-            "numeratorDescription": "MR 1 doses given (< 1 year)",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "BGganQwLSqY": {
-                        "access": "r-------",
-                        "id": "BGganQwLSqY"
-                    },
-                    "bYOHiQUKGzu": {
-                        "access": "r-------",
-                        "id": "bYOHiQUKGzu"
-                    },
-                    "iU1aiFrJdnm": {
-                        "access": "rw------",
-                        "id": "iU1aiFrJdnm"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "MR1_coverage U1 (%)",
-            "translations": []
-        },
-        {
-            "annualized": false,
-            "attributeValues": [],
             "code": "MARGINALIZED_REPORT_SBC_CLEAR_RELEVANT_PCT",
             "denominator": "#{n4yD81pELIZ}",
             "denominatorDescription": "IMM - Individuals from marginalized groups",
@@ -8952,6 +8589,190 @@
                 "users": {}
             },
             "shortName": "Caregivers child get all vacci - Male (%)",
+            "translations": []
+        },
+        {
+            "annualized": false,
+            "attributeValues": [],
+            "code": "EPI_DPT!·_DROPOUT",
+            "denominator": "#{hJJlOnVOkV2.JKuWbG5bWAu}",
+            "denominatorDescription": "EPI - DPT-HepB-HIB 1 doses given < 1 year",
+            "id": "QIoeHpkFBrI",
+            "indicatorType": {
+                "id": "hmSnCXmLYwt"
+            },
+            "legendSets": [
+                {
+                    "id": "kUG1usm9ZBd"
+                }
+            ],
+            "name": "EPI - DPT 1 to 3 dropout rate (%)",
+            "numerator": "#{hJJlOnVOkV2.JKuWbG5bWAu} - #{TWWbtMMWD51.JKuWbG5bWAu}",
+            "numeratorDescription": "EPI - DPT-HepB-HIB 1 doses given < 1 year - EPI - DPT-HepB-HIB 3 doses given < 1 year",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BGganQwLSqY": {
+                        "access": "r-------",
+                        "id": "BGganQwLSqY"
+                    },
+                    "bYOHiQUKGzu": {
+                        "access": "r-------",
+                        "id": "bYOHiQUKGzu"
+                    },
+                    "iU1aiFrJdnm": {
+                        "access": "rw------",
+                        "id": "iU1aiFrJdnm"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "DPT 1 to 3 dropout (%)",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Abandon Penta1-Penta3 < 1 an (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "PEV - Doses de Penta1 administrées < 1 an - PEV - Doses de Penta3 administrées < 1 an"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "PEV -Taux d'abandon Penta1-Penta3 < 1 an (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "PEV - Doses de Penta1 administrées < 1 an"
+                }
+            ]
+        },
+        {
+            "annualized": false,
+            "attributeValues": [],
+            "code": "EPI_DPT1_COVERAGE_U1",
+            "decimals": 0,
+            "denominator": "#{aBpJPej3lyE}",
+            "denominatorDescription": "Population < 1 year",
+            "id": "IKaHjpUXgg1",
+            "indicatorType": {
+                "id": "hmSnCXmLYwt"
+            },
+            "legendSets": [],
+            "name": "EPI - DPT-HepB-HIB 1 coverage < 1 year (%)",
+            "numerator": "#{hJJlOnVOkV2.JKuWbG5bWAu}",
+            "numeratorDescription": "DPT-HepB-HIB 1 doses given < 1year",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BGganQwLSqY": {
+                        "access": "r-------",
+                        "id": "BGganQwLSqY"
+                    },
+                    "bYOHiQUKGzu": {
+                        "access": "r-------",
+                        "id": "bYOHiQUKGzu"
+                    },
+                    "iU1aiFrJdnm": {
+                        "access": "rw------",
+                        "id": "iU1aiFrJdnm"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "DPT-HepB-HIB 1 coverage (%)",
+            "translations": []
+        },
+        {
+            "annualized": true,
+            "attributeValues": [],
+            "code": "EPI_DPT3_COV",
+            "decimals": 1,
+            "denominator": "#{aBpJPej3lyE}",
+            "denominatorDescription": "Population < 1 year",
+            "id": "lkpoPvRswsF",
+            "indicatorType": {
+                "id": "hmSnCXmLYwt"
+            },
+            "legendSets": [
+                {
+                    "id": "s1VrkziIbq4"
+                }
+            ],
+            "name": "EPI - DPT-HepB-Hib 3 coverage < 1 year (%)",
+            "numerator": "#{TWWbtMMWD51.JKuWbG5bWAu}",
+            "numeratorDescription": "DPT-HepB-Hib 3 doses given < 1 year",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BGganQwLSqY": {
+                        "access": "r-------",
+                        "id": "BGganQwLSqY"
+                    },
+                    "bYOHiQUKGzu": {
+                        "access": "r-------",
+                        "id": "bYOHiQUKGzu"
+                    },
+                    "iU1aiFrJdnm": {
+                        "access": "rw------",
+                        "id": "iU1aiFrJdnm"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "DPT3 coverage (%)",
+            "translations": []
+        },
+        {
+            "annualized": false,
+            "attributeValues": [],
+            "code": "EPI_MR_1_COV",
+            "decimals": 1,
+            "denominator": "#{aBpJPej3lyE}",
+            "denominatorDescription": "Population < 1 year",
+            "id": "QxShpQdLuAt",
+            "indicatorType": {
+                "id": "hmSnCXmLYwt"
+            },
+            "legendSets": [
+                {
+                    "id": "s1VrkziIbq4"
+                }
+            ],
+            "name": "EPI - MR 1 coverage < 1 year (%)",
+            "numerator": "#{kGrnHR9zV2G.JKuWbG5bWAu}",
+            "numeratorDescription": "MR 1 doses given (< 1 year)",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BGganQwLSqY": {
+                        "access": "r-------",
+                        "id": "BGganQwLSqY"
+                    },
+                    "bYOHiQUKGzu": {
+                        "access": "r-------",
+                        "id": "bYOHiQUKGzu"
+                    },
+                    "iU1aiFrJdnm": {
+                        "access": "rw------",
+                        "id": "iU1aiFrJdnm"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "MR1_coverage U1 (%)",
             "translations": []
         }
     ],
@@ -9741,10 +9562,10 @@
         "DHIS2Build": "6f7e169",
         "DHIS2Version": "2.41.7",
         "code": "IMM_DM",
-        "description": "Immunization - Demand Module (dashboard)",
+        "description": "Immunization - Demand Module (complete)",
         "healthAreaCode": "IMM",
         "healthAreaName": "Immunization",
-        "lastUpdated": "20260206T172015",
+        "lastUpdated": "20260209T080657",
         "locale": "en",
         "name": "IMM_DM_AGG_DHIS2.41.7-en",
         "type": "AGG",
