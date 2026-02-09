@@ -1816,6 +1816,7 @@
                     "id": "EVYKU2fIc6G"
                 }
             ],
+            "code": "IMM_DM_AGG",
             "dataDimension": true,
             "dataDimensionType": "DISAGGREGATION",
             "id": "CMrvZp5rmoC",
@@ -2181,10 +2182,10 @@
             "attributeValues": [],
             "categoryOptions": [
                 {
-                    "id": "b8y2mBp5ysN"
+                    "id": "NdavvgfkgR1"
                 },
                 {
-                    "id": "NdavvgfkgR1"
+                    "id": "b8y2mBp5ysN"
                 }
             ],
             "code": "GEN_LIB_AGG",
@@ -5230,7 +5231,7 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "wQkI1ZbGZS0"
+                        "id": "tZeiuFeBGs1"
                     },
                     "dataSet": {
                         "id": "a7vRTM7pSz5"
@@ -5238,7 +5239,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "tZeiuFeBGs1"
+                        "id": "wQkI1ZbGZS0"
                     },
                     "dataSet": {
                         "id": "a7vRTM7pSz5"
@@ -5307,15 +5308,7 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "czlrJPRpbC1"
-                    },
-                    "dataSet": {
-                        "id": "MKrvmrZxKpK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "yV9yYQBjGsY"
+                        "id": "xiMwYBChwKN"
                     },
                     "dataSet": {
                         "id": "MKrvmrZxKpK"
@@ -5331,7 +5324,15 @@
                 },
                 {
                     "dataElement": {
-                        "id": "xiMwYBChwKN"
+                        "id": "yV9yYQBjGsY"
+                    },
+                    "dataSet": {
+                        "id": "MKrvmrZxKpK"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "czlrJPRpbC1"
                     },
                     "dataSet": {
                         "id": "MKrvmrZxKpK"
@@ -5392,7 +5393,15 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "AbTC2T86JY4"
+                        "id": "aJ4sqcqVZKB"
+                    },
+                    "dataSet": {
+                        "id": "j2p1Tj409QK"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "A6jZpHfYd3f"
                     },
                     "dataSet": {
                         "id": "j2p1Tj409QK"
@@ -5401,30 +5410,6 @@
                 {
                     "dataElement": {
                         "id": "TXiI0TokpHY"
-                    },
-                    "dataSet": {
-                        "id": "j2p1Tj409QK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "e9C0cDPVXHh"
-                    },
-                    "dataSet": {
-                        "id": "j2p1Tj409QK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "n4yD81pELIZ"
-                    },
-                    "dataSet": {
-                        "id": "j2p1Tj409QK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "aJ4sqcqVZKB"
                     },
                     "dataSet": {
                         "id": "j2p1Tj409QK"
@@ -5448,7 +5433,23 @@
                 },
                 {
                     "dataElement": {
-                        "id": "A6jZpHfYd3f"
+                        "id": "e9C0cDPVXHh"
+                    },
+                    "dataSet": {
+                        "id": "j2p1Tj409QK"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "AbTC2T86JY4"
+                    },
+                    "dataSet": {
+                        "id": "j2p1Tj409QK"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "n4yD81pELIZ"
                     },
                     "dataSet": {
                         "id": "j2p1Tj409QK"
@@ -5586,22 +5587,6 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "OEQ7dRqKeV4"
-                    },
-                    "dataSet": {
-                        "id": "PjvR5XlpxSL"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "vSWSIgNutqU"
-                    },
-                    "dataSet": {
-                        "id": "PjvR5XlpxSL"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "eopyJADdRt7"
                     },
                     "dataSet": {
@@ -5610,7 +5595,23 @@
                 },
                 {
                     "dataElement": {
+                        "id": "OEQ7dRqKeV4"
+                    },
+                    "dataSet": {
+                        "id": "PjvR5XlpxSL"
+                    }
+                },
+                {
+                    "dataElement": {
                         "id": "DhxaHKbY8cK"
+                    },
+                    "dataSet": {
+                        "id": "PjvR5XlpxSL"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "vSWSIgNutqU"
                     },
                     "dataSet": {
                         "id": "PjvR5XlpxSL"
@@ -5671,39 +5672,7 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "HrVum1froGL"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "i0V7GEtclLx"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "GK5Cfy0hgDK"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "Hl6jr7fJszD"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "yMA5PAyYXxL"
+                        "id": "G3mH5Wx3sch"
                     },
                     "dataSet": {
                         "id": "GQ853FYbHUT"
@@ -5719,15 +5688,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "G3mH5Wx3sch"
-                    },
-                    "dataSet": {
-                        "id": "GQ853FYbHUT"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "dlNyj8A1sx6"
+                        "id": "yMA5PAyYXxL"
                     },
                     "dataSet": {
                         "id": "GQ853FYbHUT"
@@ -5743,7 +5704,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "BKNLXf2KOZm"
+                        "id": "HrVum1froGL"
                     },
                     "dataSet": {
                         "id": "GQ853FYbHUT"
@@ -5751,7 +5712,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "In8GQeP3KOt"
+                        "id": "GK5Cfy0hgDK"
                     },
                     "dataSet": {
                         "id": "GQ853FYbHUT"
@@ -5767,7 +5728,47 @@
                 },
                 {
                     "dataElement": {
+                        "id": "dlNyj8A1sx6"
+                    },
+                    "dataSet": {
+                        "id": "GQ853FYbHUT"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "BKNLXf2KOZm"
+                    },
+                    "dataSet": {
+                        "id": "GQ853FYbHUT"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "Hl6jr7fJszD"
+                    },
+                    "dataSet": {
+                        "id": "GQ853FYbHUT"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "In8GQeP3KOt"
+                    },
+                    "dataSet": {
+                        "id": "GQ853FYbHUT"
+                    }
+                },
+                {
+                    "dataElement": {
                         "id": "tbDdbIQMdtQ"
+                    },
+                    "dataSet": {
+                        "id": "GQ853FYbHUT"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "i0V7GEtclLx"
                     },
                     "dataSet": {
                         "id": "GQ853FYbHUT"
@@ -5828,6 +5829,30 @@
             "dataSetElements": [
                 {
                     "dataElement": {
+                        "id": "v2g3noAL78n"
+                    },
+                    "dataSet": {
+                        "id": "curyAAiG5bK"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "zYUT64LE5qw"
+                    },
+                    "dataSet": {
+                        "id": "curyAAiG5bK"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "MAtFMQJ5ZE4"
+                    },
+                    "dataSet": {
+                        "id": "curyAAiG5bK"
+                    }
+                },
+                {
+                    "dataElement": {
                         "id": "rLsItlYUSFl"
                     },
                     "dataSet": {
@@ -5844,15 +5869,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "bZVyTyVs93z"
-                    },
-                    "dataSet": {
-                        "id": "curyAAiG5bK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "zYUT64LE5qw"
+                        "id": "QjbXVGxSMrL"
                     },
                     "dataSet": {
                         "id": "curyAAiG5bK"
@@ -5868,7 +5885,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "v2g3noAL78n"
+                        "id": "bZVyTyVs93z"
                     },
                     "dataSet": {
                         "id": "curyAAiG5bK"
@@ -5885,22 +5902,6 @@
                 {
                     "dataElement": {
                         "id": "ltxOdpul0XW"
-                    },
-                    "dataSet": {
-                        "id": "curyAAiG5bK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "MAtFMQJ5ZE4"
-                    },
-                    "dataSet": {
-                        "id": "curyAAiG5bK"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "QjbXVGxSMrL"
                     },
                     "dataSet": {
                         "id": "curyAAiG5bK"
@@ -5961,14 +5962,6 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "DeUzByusmBW"
-                    },
-                    "dataSet": {
-                        "id": "KI2whosyLK7"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "tW26qxbELmq"
                     },
                     "dataSet": {
@@ -5977,7 +5970,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "XvocIVekWVL"
+                        "id": "vwayQeLkYT5"
                     },
                     "dataSet": {
                         "id": "KI2whosyLK7"
@@ -5985,7 +5978,15 @@
                 },
                 {
                     "dataElement": {
-                        "id": "vwayQeLkYT5"
+                        "id": "DeUzByusmBW"
+                    },
+                    "dataSet": {
+                        "id": "KI2whosyLK7"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "XvocIVekWVL"
                     },
                     "dataSet": {
                         "id": "KI2whosyLK7"
@@ -6046,14 +6047,6 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "yggYD3AHO98"
-                    },
-                    "dataSet": {
-                        "id": "Ny19WqGxwM1"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "hqFq18oUtcV"
                     },
                     "dataSet": {
@@ -6063,6 +6056,14 @@
                 {
                     "dataElement": {
                         "id": "Unc2MywZNhi"
+                    },
+                    "dataSet": {
+                        "id": "Ny19WqGxwM1"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "yggYD3AHO98"
                     },
                     "dataSet": {
                         "id": "Ny19WqGxwM1"
@@ -7557,38 +7558,6 @@
             "legends": [
                 {
                     "attributeValues": [],
-                    "color": "#FEB24C",
-                    "endValue": 80.0,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "F8wvZmpMbVK",
-                    "name": "Mid",
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": 70.0,
-                    "translations": []
-                },
-                {
-                    "attributeValues": [],
-                    "color": "#4DAC26",
-                    "endValue": 100.0,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "eaY4IVBuwM1",
-                    "name": "Highest",
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": 90.0,
-                    "translations": []
-                },
-                {
-                    "attributeValues": [],
                     "color": "#ED00FF",
                     "endValue": 1000.0,
                     "favorite": false,
@@ -7617,6 +7586,38 @@
                         "users": {}
                     },
                     "startValue": 0.0,
+                    "translations": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#FEB24C",
+                    "endValue": 80.0,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "F8wvZmpMbVK",
+                    "name": "Mid",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 70.0,
+                    "translations": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#4DAC26",
+                    "endValue": 100.0,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "eaY4IVBuwM1",
+                    "name": "Highest",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 90.0,
                     "translations": []
                 },
                 {
@@ -7687,22 +7688,6 @@
             "legends": [
                 {
                     "attributeValues": [],
-                    "color": "#4DAC26",
-                    "endValue": 10.0,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "GJ17LWNNkHt",
-                    "name": "Low",
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": 0.0,
-                    "translations": []
-                },
-                {
-                    "attributeValues": [],
                     "color": "#ED00FF",
                     "endValue": 0.0,
                     "favorite": false,
@@ -7715,6 +7700,22 @@
                         "users": {}
                     },
                     "startValue": 100.0,
+                    "translations": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#4DAC26",
+                    "endValue": 10.0,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "GJ17LWNNkHt",
+                    "name": "Low",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 0.0,
                     "translations": []
                 },
                 {
@@ -7790,10 +7791,10 @@
         "DHIS2Build": "6f7e169",
         "DHIS2Version": "2.41.7",
         "code": "IMM_DM_AGG",
-        "description": "Immunization - Demand Module (dashboard)",
+        "description": "Immunization - Demand Module (complete)",
         "healthAreaCode": "IMM",
         "healthAreaName": "Immunization",
-        "lastUpdated": "20260206T173800",
+        "lastUpdated": "20260209T074255",
         "locale": "en",
         "name": "IMM_DM_AGG_AGG_DHIS2.41.7-en",
         "type": "AGG",
